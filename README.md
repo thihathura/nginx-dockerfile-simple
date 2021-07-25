@@ -5,7 +5,7 @@ If you want to change your File Path you must change eighter .html file path or 
 -----------------------------------------------------------------------------------------------------------------------------
 Prepare to run Dockerfile
 ========================
-git clone https://github.com/thihathura/nginx-dockerfile-simpl
+git clone https://github.com/thihathura/nginx-dockerfile-simple.git
 
 cd nginx-dockerfile-simple
 
