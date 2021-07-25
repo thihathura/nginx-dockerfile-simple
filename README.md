@@ -9,7 +9,7 @@ git clone https://github.com/thihathura/nginx-dockerfile-simple.git
 
 cd nginx-dockerfile-simple
 
-mkdir my-website
+mkdir mywebsite
 
 mv index.html mywebsite
 ----------------------------------------------------------------------------------------------------------------------------------
