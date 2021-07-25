@@ -11,7 +11,7 @@ cd nginx-dockerfile-simple
 
 mkdir my-website
 
-mv index.html my-website
+mv index.html mywebsite
 ----------------------------------------------------------------------------------------------------------------------------------
 #1 -> Build Dockerfile
 ======================
