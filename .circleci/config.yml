@@ -1,0 +1,29 @@
+version: 2
+
+jobs:
+  job1:
+    steps:
+      - checkout
+      - run: make build dependencies
+  job2:
+    steps:
+      - run: make build artifacts
+  job3:
+    steps:
+      - run: make test
+  job4:
+    steps:
+      - run: make deploy
+
+workflows:
+  version: 2
+  jobs:
+    - job1
+    - job2
+    - job3:
+        requires:
+          - job1
+          - job2
+    - job4:
+        requires:
+          - job3
